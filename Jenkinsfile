@@ -10,6 +10,6 @@ try{
  }
   }
 }catch(error){
-   echo 'Some error' 
+   echo 'Some error accured' 
    throw error
 }
