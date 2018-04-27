@@ -26,7 +26,7 @@
 	</target>
 
 	<target name="compile" 
-	          description="Compile Java sources and copy to WEB-INF/classes dir">
+	          description="Compile Java sources and copy in to WEB-INF/classes dir">
 		<javac srcdir="${src.home}"
 	          destdir="${work.home}/WEB-INF/classes" includeantruntime="yes">
 			<classpath refid="master-classpath"/>
